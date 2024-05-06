@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fortune Generator</title>
+    <script src="generator.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Fortune Generator!</h1>
+    <div class="container">
+      <div class="fortune">
+        <label for="name"><h2>Enter your name:</h2></label>  
+        <input id="name" type="text" placeholder="Name">
+        <label for="SSN"><h2>Enter your social security number:</h2></label>
+        <input id="SSN" type="number" placeholder="9 Digit SSN">  
+        <h2>Your Fortune:</h2>
+        <p id="fortune"></p>
+      </div>
+      <button onclick="generate()">Generate Fortune</button>
+  </body>
+</html>
